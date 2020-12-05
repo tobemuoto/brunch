@@ -1,17 +1,807 @@
 <!DOCTYPE html>
+<html dir="ltr" lang="en-US">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Brunch</title>
-  <link rel="stylesheet" href="/app.css">
-  <script src="/vendor.js"></script>
-  <script src="/app.js"></script>
-  <script>require('initialize');</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-23SR105J7T"></script>
+	<script>
+		if (localStorage.getItem("qa_dev") === "true") {
+			alert('welcome! QA team');
+		} else {
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-23SR105J7T');
+		}
+	</script>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- Document Title
+	============================================= -->
+	<title>Moriahlinks | Nigeria Agricultural Products</title>
+
 </head>
-<body>
-  <div class="brunch">
-    <img src="/brunch-napkin.svg" alt="Brunch">
-    <h4>Bon Appétit.</h4>
-    <h6>A <a href="http://brunch.io" target="_blank">Brunch</a> website deployed on <a href="https://vercel.com" target="_blank">Vercel</a></h6>
-  </div>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="full-header transparent-header" data-sticky-class="not-dark">
+			<div id="header-wrap">
+				<div class="container">
+					
+					<div class="header-row">
+
+						<!-- Logo
+						============================================= -->
+						<div id="logo">
+							<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
+							<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+						</div><!-- #logo end -->
+
+						<div id="primary-menu-trigger">
+							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+						</div>
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu">
+
+							<ul class="menu-container">
+								<li class="menu-item">
+									<a class="menu-link" href="index.html"><div>Home</div></a>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="#a_vision_mission"><div>Vision &amp; Mission</div></a>
+								</li>
+								<li class="menu-item mega-menu">
+									<a class="menu-link" href="#a_core_values"><div>Core Values</div></a>
+								</li>
+								<li class="menu-item mega-menu">
+									<a class="menu-link" href="#a_impacts"><div>Impacts</div></a>
+								</li>
+								<li class="menu-item mega-menu">
+									<a class="menu-link" href="#a_products"><div>Agricultural Products</div></a>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="#a_facts"><div>Facts</div></a>
+								</li>
+								<li class="menu-item mega-menu">
+									<a class="menu-link" href="#a_faqs"><div>FAQs</div></a>
+								</li>
+								<li class="menu-item mega-menu">
+									<a class="menu-link" href="#a_contacts"><div>Contacts</div></a>
+								</li>
+							</ul>
+
+						</nav><!-- #primary-menu end -->
+
+
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</header><!-- #header end -->
+
+		<section id="slider" class="slider-element slider-parallax swiper_wrapper min-vh-60 min-vh-md-100 include-header">
+			<div class="slider-inner">
+
+				<div class="swiper-container swiper-parent">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide dark">
+							<div class="container">
+								<div class="slider-caption slider-caption-center">
+									<h2 data-animate="fadeInUp">Welcome to Moriahlinks</h2>
+									<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Moriahlinks is an international company incorporated in the US and in Nigeria to expose and connect the Nigerian farming industry to the international market and increase the value that local farmers get from selling their agricultural products to the international market.
+									</p>
+								</div>
+							</div>
+							<div class="swiper-slide-bg" style="background-image: url('images/slider/swiper/1.jpg');"></div>
+						</div>
+						<div class="swiper-slide dark">
+							<div class="container">
+								<div class="slider-caption slider-caption-center">
+									<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">We started Morialinks because we believe an equitable share of value to the farmers can bring about economic diversification, development, and advancement in Nigeria and Sub-Saharan Africa in general. </p>
+								</div>
+							</div>
+							<div class="video-wrap">
+								<video id="slide-video" poster="images/videos/explore-poster.jpg" preload="auto" loop autoplay muted>
+									<source src='images/videos/explore.webm' type='video/webm' />
+									<source src='images/videos/explore.mp4' type='video/mp4' />
+								</video>
+								<div class="video-overlay" style="background-color: rgba(0,0,0,0.55);"></div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="container">
+								<div class="slider-caption">
+									<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">We intend to make export easier and available to local farmers of all sizes. Farmers can easily access the international market and get more value for their products. Thus, farmers can get more income and increase production which in turn will expand the farming industry in these localities</p>
+								</div>
+							</div>
+							<div class="swiper-slide-bg" style="background-image: url('images/slider/swiper/3.jpg'); background-position: center top;"></div>
+						</div>
+					</div>
+					<div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
+					<div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
+				</div>
+
+				<a href="#" data-scrollto="#content" data-offset="100" class="one-page-arrow dark"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
+
+			</div>
+		</section>
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap">
+
+
+
+				<a name="a_vision_mission"></a>
+				<div class="container bottommargin-lg">
+					<div class="row align-items-center">
+
+						<div class="col-lg-5">
+							<div class="heading-block">
+								<h1>Vision &amp; Mission</h1>
+							</div>
+							<ul class="list-styled mb-0">
+								<li class="py-2 text-larger"><strong>To become the African hub for global opportunities/investments</strong></li>
+								<li class="py-2 text-larger"><strong>The worldâ€™s access/door/gateway/portal to Africa for trade and information</strong></li>
+								<li class="py-2 text-larger"><strong>Showcasing Africa to the world through access to the best resources, talent and technology</strong></li>
+							</ul>
+						</div>
+
+						<div class="col-lg-7 align-self-end">
+
+							<div class="position-relative overflow-hidden">
+								<img src="images/services/main-fbrowser.png" data-animate="fadeInUp" data-delay="100" alt="Chrome">
+								<img src="images/services/main-fmobile.png" style="top: 0; left: 0; min-width: 100%; min-height: 100%;" data-animate="fadeInUp" data-delay="400" alt="iPhone" class="position-absolute">
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+
+
+				<a name="a_core_values"></a>
+				<div class="section my-0">
+					<div class="container">
+
+						<div class="row mt-4 col-mb-50">
+
+							<div class="col-lg-4">
+								<i class="i-plain color i-large icon-line2-screen-desktop inline-block" style="margin-bottom: 15px;"></i>
+								<div class="heading-block border-bottom-0" style="margin-bottom: 15px;">
+									<span class="before-heading">Scalable on Devices.</span>
+									<h4>Faith &amp; Audacity</h4>
+								</div>
+								<p>Employment respond committed meaningful fight against oppression social challenges rural legal aid governance. Meaningful work, implementation, process cooperation, campaign inspire.</p>
+							</div>
+
+							<div class="col-lg-4">
+								<i class="i-plain color i-large icon-line2-energy inline-block" style="margin-bottom: 15px;"></i>
+								<div class="heading-block border-bottom-0" style="margin-bottom: 15px;">
+									<span class="before-heading">Smartly Coded &amp; Maintained.</span>
+									<h4>Fairness &amp; Equity</h4>
+								</div>
+								<p>Medecins du Monde Jane Addams reduce child mortality challenges Ford Foundation. Diversification shifting landscape advocate pathway to a better life rights international. Assessment.</p>
+							</div>
+
+							<div class="col-lg-4">
+								<i class="i-plain color i-large icon-line2-equalizer inline-block" style="margin-bottom: 15px;"></i>
+								<div class="heading-block border-bottom-0" style="margin-bottom: 15px;">
+									<span class="before-heading">Flexible &amp; Customizable.</span>
+									<h4>Hard work &amp; diligence</h4>
+								</div>
+								<p>Democracy inspire breakthroughs, Rosa Parks; inspiration raise awareness natural resources. Governance impact; transformative donation philanthropy, respect reproductive.</p>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+
+
+
+				<a name="a_impacts"></a>
+				<div class="container clearfix">
+
+					<div class="heading-block topmargin-lg center">
+						<h2>Impacts</h2>
+						<span class="mx-auto">Direct access to farmers provides a means for end customers to engage in corporate social responsibility (CSR) programs.</span>
+					</div>
+
+					<div class="row col-mb-50 mb-4">
+						<div class="col-lg-4 col-md-6">
+
+							<div class="feature-box flex-md-row-reverse text-md-right" data-animate="fadeIn">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-line-heart"></i></a>
+								</div>
+								<div class="fbox-content">
+									<br/>
+									<h3>Youth empowerment</h3>
+									<!--p>Stretch your Website to the Full Width or make it boxed to surprise your visitors.</p-->
+								</div>
+							</div>
+
+							<div class="feature-box flex-md-row-reverse text-md-right mt-5" data-animate="fadeIn" data-delay="200">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-line-paper"></i></a>
+								</div>
+								<div class="fbox-content">
+									<br/>
+									<h3>Economic diversification</h3>
+								</div>
+							</div>
+
+							<div class="feature-box flex-md-row-reverse text-md-right mt-5" data-animate="fadeIn" data-delay="400">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-line-layers"></i></a>
+								</div>
+								<div class="fbox-content">
+									<br/>
+									<h3>Social justice - No child labor</h3>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="col-lg-4 d-md-none d-lg-block text-center">
+							<img src="images/services/iphone7.png" alt="iphone 2">
+						</div>
+
+						<div class="col-lg-4 col-md-6">
+
+							<div class="feature-box" data-animate="fadeIn">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-line-power"></i></a>
+								</div>
+								<div class="fbox-content">
+									<br/>
+									<h3>Advocacy</h3>
+								</div>
+							</div>
+
+							<div class="feature-box mt-5" data-animate="fadeIn" data-delay="200">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-line-check"></i></a>
+								</div>
+								<div class="fbox-content">
+									<br/>
+									<h3>Fair Trade</h3>
+								</div>
+							</div>
+
+							<div class="feature-box mt-5" data-animate="fadeIn" data-delay="400">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-bulb"></i></a>
+								</div>
+								<div class="fbox-content">
+									<br/>
+									<h3>Sustainability</h3>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+
+
+				<a name="a_products"></a>
+				<div class="section topmargin mb-0 border-bottom-0">
+					<div class="container clearfix">
+						<div class="heading-block center m-0">
+							<h3>Agricultural Products</h3>
+						</div>
+					</div>
+				</div>
+
+				<div id="portfolio" class="portfolio row no-gutters portfolio-reveal grid-container">
+
+					<article class="portfolio-item col-6 col-md-4 col-lg-3 pf-media pf-icons">
+						<div class="grid-inner">
+							<div class="portfolio-image">
+								<a href="portfolio-single.html">
+									<img src="images/products/1.png" alt="Open Imagination">
+								</a>
+								<div class="bg-overlay">
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item">
+										<a href="images/portfolio/full/1.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
+										<a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item"><i class="icon-line-ellipsis"></i></a>
+									</div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item"></div>
+								</div>
+							</div>
+							<div class="portfolio-desc">
+								<h3><a href="portfolio-single.html">Nigerian Hibiscus</a></h3>
+								<span>known for good taste and color</span>
+							</div>
+						</div>
+					</article>
+
+					<article class="portfolio-item col-6 col-md-4 col-lg-3 pf-illustrations">
+						<div class="grid-inner">
+							<div class="portfolio-image">
+								<a href="portfolio-single.html">
+									<img src="images/products/2.png" alt="Locked Steel Gate">
+								</a>
+								<div class="bg-overlay">
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item">
+										<a href="images/portfolio/full/2.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
+										<a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item"><i class="icon-line-ellipsis"></i></a>
+									</div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item"></div>
+								</div>
+							</div>
+							<div class="portfolio-desc">
+								<h3><a href="portfolio-single.html">Locked Steel Gate</a></h3>
+								<span><a href="#">Illustrations</a></span>
+							</div>
+						</div>
+					</article>
+
+					<article class="portfolio-item col-6 col-md-4 col-lg-3 pf-graphics pf-uielements">
+						<div class="grid-inner">
+							<div class="portfolio-image">
+								<a href="#">
+									<img src="images/products/3.png" alt="Mac Sunglasses">
+								</a>
+								<div class="bg-overlay">
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item">
+										<a href="https://vimeo.com/89396394" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item" data-lightbox="iframe"><i class="icon-line-play"></i></a>
+										<a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item"><i class="icon-line-ellipsis"></i></a>
+									</div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item"></div>
+								</div>
+							</div>
+							<div class="portfolio-desc">
+								<h3><a href="portfolio-single-video.html">Mac Sunglasses</a></h3>
+								<span><a href="#">Graphics</a>, <a href="#">UI Elements</a></span>
+							</div>
+						</div>
+					</article>
+
+					<article class="portfolio-item col-6 col-md-4 col-lg-3 pf-icons pf-illustrations">
+						<div class="grid-inner">
+							<div class="portfolio-image">
+								<a href="portfolio-single.html">
+									<img src="images/products/4.png" alt="Open Imagination">
+								</a>
+								<div class="bg-overlay" data-lightbox="gallery">
+									<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item">
+										<a href="images/portfolio/full/4.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+										<a href="images/portfolio/full/4-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
+										<a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-parent=".portfolio-item"><i class="icon-line-ellipsis"></i></a>
+									</div>
+									<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-parent=".portfolio-item"></div>
+								</div>
+							</div>
+							<div class="portfolio-desc">
+								<h3><a href="portfolio-single-gallery.html">Morning Dew</a></h3>
+								<span><a href="#">Icons</a>, <a href="#">Illustrations</a></span>
+							</div>
+						</div>
+					</article>
+
+				</div>
+
+				<a href="portfolio.html" class="button button-full button-dark center text-right bottommargin-lg">
+					<div class="container clearfix">
+						More than 100+ predefined Portfolio Grid Layouts. <strong>See More</strong> <i class="icon-caret-right" style="top:4px;"></i>
+					</div>
+				</a>
+
+				<div class="container clearfix bottommargin-lg">
+
+					<div class="row align-items-center col-mb-50">
+						<div class="col-md-4 center">
+							<img data-animate="fadeInLeft" src="images/services/iphone6.png" alt="Iphone">
+						</div>
+
+						<div class="col-md-8 text-center text-md-left">
+							<div class="heading-block border-bottom-0">
+								<h3>Nigerian Dry Hibiscus</h3>
+							</div>
+
+							<p>Nigerian hibiscus has the flavor profile and color that are sought after by herbal tea producers and tea restaurants, there are demonstrated health benefits for hibiscus- helps weight loss, metabolism, controls blood pressure</p>
+
+							<p>Major use of dried hibiscus is tea manufacturing by food & beverage chains. Other intermediary uses of hibiscus include jam and jelly manufacturing, and food coloring</p>
+
+							<a href="#" class="button button-border button-dark button-rounded button-large ml-0 topmargin-sm">Learn more</a>
+						</div>
+					</div>
+
+				</div>
+
+
+
+
+				<a name="a_facts"></a>
+				<div class="row clearfix align-items-stretch">
+
+					<div class="col-lg-6 center col-padding" style="background: url('images/services/main-bg.jpg') center center no-repeat; background-size: cover;">
+					</div>
+
+					<div class="col-lg-6 center col-padding" style="background-color: #F5F5F5;">
+						<div class="heading-block border-bottom-0">
+							<span class="before-heading color">Sub-Saharan Farming</span>
+							<h3>Nigerian Agricultural Products For Export</h3>
+						</div>
+
+						<div class="center bottommargin">
+							<a class="d-block position-relative" href="https://vimeo.com/101373765" data-lightbox="iframe">
+								<img src="images/services/video.jpg" alt="Video">
+								<div class="bg-overlay">
+									<div class="bg-overlay-content dark">
+										<span class="overlay-trigger-icon size-lg op-ts op-07 bg-light text-dark" data-hover-animate="op-1" data-hover-animate-out="op-07" data-hover-parent=".row"><i class="icon-line-play"></i></span>
+									</div>
+								</div>
+							</a>
+						</div>
+						<p class="lead mb-0">Democracy inspire breakthroughs, Rosa Parks; inspiration raise awareness natural resources. Governance impact; transformative donation philanthropy, respect reproductive.</p>
+					</div>
+
+				</div>
+				
+
+
+
+				<a name="a_faqs"></a>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<div class="container clearfix">
+
+					<div class="row col-mb-50">
+						<div class="col-sm-6 col-lg-4">
+							<div class="feature-box fbox-sm fbox-plain" data-animate="fadeIn">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-bulb"></i></a>
+								</div>
+								<div class="fbox-content">
+									<h3>Can you ship products to any destination in the world?</h3>
+									<p>-answer</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-6 col-lg-4">
+							<div class="feature-box fbox-sm fbox-plain" data-animate="fadeIn" data-delay="200">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-bulb"></i></a>
+								</div>
+								<div class="fbox-content">
+									<h3>What products do you specialize on?</h3>
+									<p>-answer</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-6 col-lg-4">
+							<div class="feature-box fbox-sm fbox-plain" data-animate="fadeIn" data-delay="400">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-bulb"></i></a>
+								</div>
+								<div class="fbox-content">
+									<h3>How do I get a quote?</h3>
+									<p>-answer</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-6 col-lg-4">
+							<div class="feature-box fbox-sm fbox-plain" data-animate="fadeIn" data-delay="600">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-bulb"></i></a>
+								</div>
+								<div class="fbox-content">
+									<h3>What is your lead time? How long until I receive my products</h3>
+									<p>-answer</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-6 col-lg-4">
+							<div class="feature-box fbox-sm fbox-plain" data-animate="fadeIn" data-delay="800">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-bulb"></i></a>
+								</div>
+								<div class="fbox-content">
+									<h3>How do you ensure product quality?</h3>
+									<p>-answer</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-6 col-lg-4">
+							<div class="feature-box fbox-sm fbox-plain" data-animate="fadeIn" data-delay="1000">
+								<div class="fbox-icon">
+									<a href="#"><i class="icon-bulb"></i></a>
+								</div>
+								<div class="fbox-content">
+									<h3>Extensive Documentation</h3>
+									<p>-answer</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+
+
+
+				<a name="a_feedbacks"></a>
+				<div class="section parallax dark mb-0" style="background-image: url('images/services/home-testi-bg.jpg'); padding: 100px 0;" data-bottom-top="background-position:0px 300px;" data-top-bottom="background-position:0px -300px;">
+					
+					<div class="heading-block center">
+						<h3>What Clients Say?</h3>
+					</div>
+
+					<div class="fslider testimonial testimonial-full" data-animation="fade" data-arrows="false">
+						<div class="flexslider">
+							<div class="slider-wrap">
+								<div class="slide">
+									<div class="testi-image">
+										<a href="#"><img src="images/testimonials/3.jpg" alt="Customer Testimonails"></a>
+									</div>
+									<div class="testi-content">
+										<p>Similique fugit repellendus expedita excepturi iure perferendis provident quia eaque. Repellendus, vero numquam?</p>
+										<div class="testi-meta">
+											Steve Jobs
+											<span>Apple Inc.</span>
+										</div>
+									</div>
+								</div>
+								<div class="slide">
+									<div class="testi-image">
+										<a href="#"><img src="images/testimonials/2.jpg" alt="Customer Testimonails"></a>
+									</div>
+									<div class="testi-content">
+										<p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</p>
+										<div class="testi-meta">
+											Collis Ta'eed
+											<span>Envato Inc.</span>
+										</div>
+									</div>
+								</div>
+								<div class="slide">
+									<div class="testi-image">
+										<a href="#"><img src="images/testimonials/1.jpg" alt="Customer Testimonails"></a>
+									</div>
+									<div class="testi-content">
+										<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</p>
+										<div class="testi-meta">
+											John Doe
+											<span>XYZ Inc.</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				
+
+
+
+				<a name="a_contacts"></a>
+				<br/>
+				<br/>
+				<br/>
+				<br/>				
+				<div class="container clearfix">
+					<span class="mx-auto"></span>
+					<div class="row gutter-40 col-mb-80">
+						<!-- Postcontent
+						============================================= -->
+						<div class="postcontent col-lg-9">
+
+							<h3>Send us an Email</h3>
+
+							<div class="form-widget">
+
+								<div class="form-result"></div>
+
+								<form class="mb-0" id="template-contactform" name="template-contactform" action="include/form.php" method="post">
+
+									<div class="form-process">
+										<div class="css3-spinner">
+											<div class="css3-spinner-scaler"></div>
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-md-4 form-group">
+											<label for="template-contactform-name">Name <small>*</small></label>
+											<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
+										</div>
+
+										<div class="col-md-4 form-group">
+											<label for="template-contactform-email">Email <small>*</small></label>
+											<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
+										</div>
+
+										<div class="col-md-4 form-group">
+											<label for="template-contactform-phone">Phone</label>
+											<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control" />
+										</div>
+
+										<div class="w-100"></div>
+
+										<div class="col-md-8 form-group">
+											<label for="template-contactform-subject">Subject <small>*</small></label>
+											<input type="text" id="template-contactform-subject" name="subject" value="" class="required sm-form-control" />
+										</div>
+
+										<div class="col-md-4 form-group">
+											<label for="template-contactform-service">Services</label>
+											<select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
+												<option value="">-- Select One --</option>
+												<option value="hibisus">Dry Hibiscus</option>
+												<option value="others">Others</option>
+											</select>
+										</div>
+
+										<div class="w-100"></div>
+
+										<div class="col-12 form-group">
+											<label for="template-contactform-message">Message <small>*</small></label>
+											<textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
+										</div>
+
+										<div class="col-12 form-group d-none">
+											<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
+										</div>
+
+										<div class="col-12 form-group">
+											<button class="button button-3d m-0" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
+										</div>
+									</div>
+
+									<input type="hidden" name="prefix" value="template-contactform-">
+
+								</form>
+							</div>
+
+						</div><!-- .postcontent end -->
+
+						<!-- Sidebar
+						============================================= -->
+						<div class="sidebar col-lg-3">
+
+							<address>
+								<strong>Headquarters:</strong><br>
+								795 Folsom Ave, Suite 600<br>
+								San Francisco, CA 94107<br>
+							</address>
+							<abbr title="Phone Number"><strong>Phone:</strong></abbr> (1) 8547 632521<br>
+							<abbr title="Fax"><strong>Fax:</strong></abbr> (1) 11 4752 1433<br>
+							<abbr title="Email Address"><strong>Email:</strong></abbr> info@canvas.com
+
+							<div class="widget border-0 pt-0">
+
+								<div class="fslider customjs testimonial twitter-scroll twitter-feed" data-username="envato" data-count="3" data-animation="slide" data-arrows="false">
+									<i class="i-plain i-small color icon-twitter mb-0" style="margin-right: 15px;"></i>
+									<div class="flexslider" style="width: auto;">
+										<div class="slider-wrap">
+											<div class="slide"></div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="widget border-0 pt-0">
+
+								<a href="#" class="social-icon si-small si-dark si-facebook">
+									<i class="icon-facebook"></i>
+									<i class="icon-facebook"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small si-dark si-twitter">
+									<i class="icon-twitter"></i>
+									<i class="icon-twitter"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small si-dark si-dribbble">
+									<i class="icon-dribbble"></i>
+									<i class="icon-dribbble"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small si-dark si-forrst">
+									<i class="icon-forrst"></i>
+									<i class="icon-forrst"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small si-dark si-pinterest">
+									<i class="icon-pinterest"></i>
+									<i class="icon-pinterest"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small si-dark si-gplus">
+									<i class="icon-gplus"></i>
+									<i class="icon-gplus"></i>
+								</a>
+
+							</div>
+
+						</div><!-- .sidebar end -->
+					</div>
+
+				</div>
+
+				
+
+
+
+			</div>
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark">
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
+				<div class="container">
+
+					<div class="row col-mb-30">
+
+						<div class="col-md-6 text-center text-md-left">
+							Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.<br>
+							<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
+						</div>
+
+					</div>
+
+				</div>
+			</div><!-- #copyrights end -->
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.min.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
 </body>
+</html>
